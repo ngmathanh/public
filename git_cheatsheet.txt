@@ -1,0 +1,16 @@
+git init [project name]
+git clone <project url>
+git status 
+git add [file] 
+git rm [file]
+git fetch [remote]
+git pull [remote]
+git push -u origin main
+git diff --staged [file] 
+git checkout -- [file] 
+git reset [<path>...] 
+git commit -m 'comment'
+git log
+git tag [name] [commit sha]
+git reset [--hard][target reference] %Switches the current branch to the target reference, leaving a difference as an uncommitted change. When --hard is used, all changes are discarded. It's easy to lose uncommitted changes with --hard.
+git revert [commit sha]
